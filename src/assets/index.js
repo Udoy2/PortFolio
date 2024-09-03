@@ -20,17 +20,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/Python.png";
+import selenium from "./tech/Selenium.png";
+import jenkins from "./tech/Jenkins.png";
+import laravel from "./tech/Laravel.png";
+import postman from "./tech/Postman.png";
+import linux from "./tech/Linux.png";
+import express from "./tech/Express.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import company from "./company/company.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  python,
+  selenium,
+  jenkins,
+  laravel,
+  postman,
+  linux,
+  express,
   logo,
   backend,
   creator,
@@ -52,10 +64,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+
+  company,
   carrent,
   jobit,
   tripguide,
