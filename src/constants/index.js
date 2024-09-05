@@ -105,15 +105,7 @@ import {
       name: "Jenkins",
       icon: jenkins,
     },
-    {
-      name: "PostMan",
-      icon: postman,
-    },
-
-    {
-      name: "git",
-      icon: git,
-    },
+    
     {
       name: "docker",
       icon: docker,
