@@ -163,67 +163,71 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "StudioShafaat-Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "🌐 A sleek Portfolio website crafted with HTML, CSS, and JavaScript. 🎨 Showcasing dynamic projects and interactive design. 🚀 Responsive and optimized for all devices.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Udoy2/studioshafaat-laravel",
     },
     {
-      name: "Job IT",
+      name: "Car Sell",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "AutoQ.ng connects buyers to a wide range of new and used cars in Nigeria 🚗, featuring verified dealers and affordable pricing options 💸. It also offers car loans and a platform to sell your car easily.",
       tags: [
         {
-          name: "react",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Mysql",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://autoq.ng/cars-for-sale",
     },
     {
-      name: "Trip Guide",
+      name: "Tech Summit",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "🌐 Tech Summit is a powerful learning management system (LMS) built with React and Laravel. 🚀 It provides a seamless platform for educational institutions to manage courses, students, and resources. 📚",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Html-css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Laravel",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://guileless-sunshine-9e2b2a.netlify.app/",
     },
   ];
   
