@@ -29,7 +29,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(process.env.VITE_APP_EMAILJS_SERVICE_ID,process.env.VITE_APP_EMAILJS_TEMPLATE_ID,process.env.VITE_APP_EMAILJS_PUBLIC_KEY);
     
     setLoading(true);
 

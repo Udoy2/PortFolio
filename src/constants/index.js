@@ -25,7 +25,10 @@ import {
     laravel,
     postman,
     linux,
-    express
+    express,
+    furniflex,
+githubExplorer,
+electronicGoddies
   } from "../assets";
   
   export const navLinks = [
@@ -135,30 +138,15 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+
   ];
   
   const projects = [
@@ -227,6 +215,62 @@ import {
         },
       ],
       image: tripguide,
+      source_code_link: "https://guileless-sunshine-9e2b2a.netlify.app/",
+    },
+    {
+      name: "FurniFlex",
+      description:
+        "🌟 FurniFlex: A sleek React-based e-commerce app with product listings, cart management, and user authentication! 🛒💻",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Talwind",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: furniflex,
+      source_code_link: "https://github.com/Udoy2/FurniFlex",
+    },
+    {
+      name: "ElectronicGoodies",
+      description:
+        "This project is an ASP.NET MVC application designed to provide a seamless shopping experience for electronic products.🎯✅",
+      tags: [
+        {
+          name: "Asp-net-core-mvc",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Html-css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: electronicGoddies,
+      source_code_link: "https://github.com/Udoy2/ElectronicGoodies",
+    },
+    {
+      name: "GitHub Explorer",
+      description:
+        "🚀 React app to fetch and display GitHub user details. 🔍 Explore profiles effortlessly!",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Html-css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: githubExplorer,
       source_code_link: "https://guileless-sunshine-9e2b2a.netlify.app/",
     },
   ];

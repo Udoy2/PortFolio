@@ -34,6 +34,9 @@ import company from "./company/company.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import furniflex from "./furniflex.png";
+import githubExplorer from "./githubExplorer.png";
+import electronicGoddies from "./electronicGoddies.png";
 
 export {
   python,
@@ -69,4 +72,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  furniflex,
+  githubExplorer,
+  electronicGoddies
 };
