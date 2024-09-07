@@ -1,8 +1,40 @@
-# React + Vite
+# 🚀 Portfolio 3D Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Built a dynamic 3D portfolio website using Three.js and React.js, showcasing my projects in an immersive experience. 🌐 Explore the intersection of creativity and code!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
+
+- **Frontend**: React.js, Three.js
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Email Service**: EmailJS
+- **Development Tools**: Vite, ESLint
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   https://github.com/Udoy2/PortFolio.git
+   cd PortFolio
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+
+   ```bash
+   npm run build
+   ```
+
