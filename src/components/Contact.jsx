@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = ({isWebGL2Supported}) => {
+  
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -124,12 +125,12 @@ const Contact = ({isWebGL2Supported}) => {
         </form>
       </motion.div>
 
-      <motion.div
+      {isWebGL2Supported && <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        {isWebGL2Supported && <EarthCanvas />}
-      </motion.div>
+        <EarthCanvas />
+      </motion.div> }
     </div>
   );
 };
