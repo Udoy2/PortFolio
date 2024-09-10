@@ -1,0 +1,11 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow any sensitive or unnecessary files (like development files)
+Disallow: /static/js/*.map
+Disallow: /admin/
+Disallow: /login/
+
+# Sitemap location
+Sitemap: https://mahmudrahman.me/sitemap.xml
