@@ -274,6 +274,13 @@ electronicGoddies
       source_code_link: "https://guileless-sunshine-9e2b2a.netlify.app/",
     },
   ];
+
+  const socials = {
+    github: "https://github.com/Udoy2",
+    facebook: "https://www.facebook.com/parenthisis/",
+    instagram: "https://www.instagram.com/parenthisis/",
+    linkendin: "https://www.linkedin.com/in/mahmudur-rahman-728a27264"
+  }
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects,socials };
   

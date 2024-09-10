@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import {About,Contact,Experience,Hero,Navbar,Tech,Works,StarsCanvas} from './components'
+import {About,Contact,Experience,Hero,Navbar,Tech,Works,StarsCanvas, Footer} from './components'
 import { useEffect, useState } from "react";
 import { isWebGL2Available } from '@react-three/drei';
 const App = ()=> {
@@ -31,6 +31,7 @@ const App = ()=> {
           <Contact isWebGL2Supported={isWebGL2Supported}/>
           {isWebGL2Supported && <StarsCanvas />}
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   )
