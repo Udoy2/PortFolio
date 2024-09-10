@@ -8,7 +8,7 @@ const App = ()=> {
 
   useEffect(() => {
     // Check if WebGL2 is available
-    if (!false) {
+    if (!isWebGL2Available()) {
       setWebGL2Supported(false);
       if (!alertShown) {
         alert("Your browser doesn't support WebGL2, so you're viewing a simplified version of the site. For the full experience, please update or switch your browser.");
