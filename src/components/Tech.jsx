@@ -8,7 +8,7 @@ const Tech = () => {
   const [isMobile, setisMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 751px)');
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
     setisMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
