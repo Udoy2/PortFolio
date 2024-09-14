@@ -125,7 +125,7 @@ const Works = () => {
   const [isMobile, setisMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 751px)');
+    const mediaQuery = window.matchMedia('(max-width: 1000px)');
     setisMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
