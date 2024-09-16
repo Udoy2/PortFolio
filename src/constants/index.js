@@ -271,7 +271,7 @@ electronicGoddies
         },
       ],
       image: githubExplorer,
-      source_code_link: "https://guileless-sunshine-9e2b2a.netlify.app/",
+      source_code_link: "https://github.com/Udoy2/GitHub-User-Explorer",
     },
   ];
 
