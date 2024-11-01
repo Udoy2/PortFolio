@@ -27,8 +27,9 @@ import {
     linux,
     express,
     furniflex,
-githubExplorer,
-electronicGoddies
+    githubExplorer,
+    electronicGoddies,
+    imagetextify
   } from "../assets";
   
   export const navLinks = [
@@ -272,6 +273,28 @@ electronicGoddies
       ],
       image: githubExplorer,
       source_code_link: "https://github.com/Udoy2/GitHub-User-Explorer",
+    },
+    
+    {
+      name: "📸 imageTextify",
+      description:
+        "A lightweight OCR tool powered by FastAPI and PaddleOCR for extracting text from images. Fast, accurate, and Docker-friendly! 📸✨",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "FastApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PaddleOCR",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: imagetextify,
+      source_code_link: "https://github.com/Udoy2/ImageTextify",
     },
   ];
 
