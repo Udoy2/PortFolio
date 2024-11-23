@@ -46,7 +46,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a skilled software developer, and I have over four years of
+          I'm a skilled software developer, and I have over two years of
           experience in web development, with a strong focus on the MERN stack
           (MongoDB, Express.js, React.js, and Node.js). I am passionate about
           building scalable web applications and have worked on various
