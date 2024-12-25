@@ -57,19 +57,7 @@ const About = () => {
           to further enhance my skills in web development and DevOps.
         </motion.p>
 
-        {/* Video Section */}
-        <div className="flex-1 w-full h-auto">
-          <iframe
-            src="https://player.vimeo.com/video/1032619040?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            width="100%"
-            height="auto"
-            frameBorder="0"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-            title="VID_20241123_182733"
-            className="rounded-lg shadow-lg aspect-video"
-          ></iframe>
-        </div>
-      </div>
+
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
