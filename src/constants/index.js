@@ -130,7 +130,7 @@ import {
       iconBg: "#383E56",
       date: "August 2025",
       points : [
-        "Joined as a Software Engineer focused on web and mobile application development; currently contributing to feature implementation, UI improvements.",
+        "Joined as a Software Engineer focused on web and application development; currently contributing to feature implementation, UI improvements.",
     ]
     
     },
