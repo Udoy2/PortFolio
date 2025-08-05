@@ -29,7 +29,9 @@ import {
     furniflex,
     githubExplorer,
     electronicGoddies,
-    imagetextify
+    imagetextify,
+    qualfixFav,
+    instantBoard
   } from "../assets";
   
   export const navLinks = [
@@ -123,6 +125,17 @@ import {
   const experiences = [
     {
       title: "Software Engineer",
+      company_name: "QUALFIX",
+      icon: qualfixFav,
+      iconBg: "#383E56",
+      date: "August 2025",
+      points : [
+        "Joined as a Software Engineer focused on web and mobile application development; currently contributing to feature implementation, UI improvements.",
+    ]
+    
+    },
+    {
+      title: "Software Engineer",
       company_name: "ALBA ENTERPRISES",
       icon: company,
       iconBg: "#383E56",
@@ -151,6 +164,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "InstantBoard",
+      description:
+        "🚀 A C++ application utilizing sockets and OpenGL to create a real-time collaborative whiteboard. ✏️ Seamless drawing and interaction across connected devices!",
+      tags: [
+        {
+          name: "c++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenGL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Winsock",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: instantBoard,
+      source_code_link: "https://github.com/Udoy2/InstantBoard",
+    },
     {
       name: "StudioShafaat-Portfolio",
       description:
