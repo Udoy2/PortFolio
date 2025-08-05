@@ -30,8 +30,8 @@ import {
     githubExplorer,
     electronicGoddies,
     imagetextify,
-    qualfixFav,
-    instantBoard
+    instantBoard,
+    qualfixFab,
   } from "../assets";
   
   export const navLinks = [
@@ -126,7 +126,7 @@ import {
     {
       title: "Software Engineer",
       company_name: "QUALFIX",
-      icon: qualfixFav,
+      icon: qualfixFab,
       iconBg: "#383E56",
       date: "August 2025",
       points : [
