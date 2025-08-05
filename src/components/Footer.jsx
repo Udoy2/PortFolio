@@ -16,7 +16,7 @@ const Footer = () => {
                         alt="logo"
                         className='w-7 h-7 object-contain' />
                 </Link>
-                <p class="mt-4 text-sm text-gray-500 sm:ml-3 sm:pl-2 sm:border-l sm:border-gray-200 sm:mt-0">© 2024 MAHMUDUR RAHMAN
+                <p class="mt-4 text-sm text-gray-500 sm:ml-3 sm:pl-2 sm:border-l sm:border-gray-200 sm:mt-0">© 2025 MAHMUDUR RAHMAN
                 </p>
                 <p class="mt-4 text-sm text-gray-500 sm:ml-3 sm:pl-2 sm:border-l sm:border-gray-200 sm:mt-0">ALL RIGHTS RESERVED
                 </p>
