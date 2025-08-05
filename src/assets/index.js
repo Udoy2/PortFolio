@@ -38,7 +38,7 @@ import furniflex from "./furniflex.png";
 import githubExplorer from "./githubExplorer.png";
 import electronicGoddies from "./electronicGoddies.png";
 import imagetextify from "./imagetextify.png";
-import qualfixFab from "./qualfixFav.png";
+import qualfixFab from "./qualfixFav.jpg";
 import instantBoard from "./instantBoard.png";
 
 export {
